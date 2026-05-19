@@ -11,7 +11,7 @@ public:
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
             }
-            // Minimum left side me ya mid par ho sakta hai
+            
             else {
                 right = mid;
             }
